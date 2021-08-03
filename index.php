@@ -1,4 +1,5 @@
 <?php 
+// Strings:
 // $stringOne = 'my email is ';
 // $stringTwo= 'mario123@fake.com';
 //echo $stringOne.$stringTwo;
@@ -13,21 +14,22 @@
 // echo strtolower($name);
 // echo str_replace('m', 'w', $name);
 
-$radius = 25;
-$pi = 3.14;
-
+// Numbers:
+// $radius = 25;
+// $pi = 3.14; 
 // echo $pi * $radius**2;
 // echo 2 * (4 + 9) / 3;
 // $radius--;
 // echo $radius
-
 // $age = 20;
 // $age -= 10;
 // echo $age
-
-// Number Functions
+// Number Functions:
 // echo ceil($pi);
-echo pi();
+// echo pi();
+
+// Arrays: 
+
 
 
 ?>
