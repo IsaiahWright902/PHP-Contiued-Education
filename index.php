@@ -28,8 +28,22 @@
 // echo ceil($pi);
 // echo pi();
 
-// Arrays: 
-
+// Indexed Arrays: 
+// $peopleOne = ['isaiah', 'naruto', 'ryu'];
+// echo $peopleOne[0]
+// $peopleTwo = array('Rick', 'Morty');
+// echo $peopleTwo[0];
+// $ages = [20, 30, 40, 50];
+// print_r($ages);
+// $ages[1] = 25;
+// print_r($ages);
+// $ages[] = 60;
+// print_r($ages)
+// array_push($ages, 70);
+// print_r($ages);
+// echo count($ages)
+// $peopleThree = array_merge($peopleOne, $peopleTwo);
+// print_r($peopleThree);
 
 
 ?>
