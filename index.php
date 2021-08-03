@@ -14,6 +14,7 @@
 // echo strtolower($name);
 // echo str_replace('m', 'w', $name);
 
+
 // Numbers:
 // $radius = 25;
 // $pi = 3.14; 
@@ -27,6 +28,7 @@
 // Number Functions:
 // echo ceil($pi);
 // echo pi();
+
 
 // Indexed Arrays: 
 // $peopleOne = ['isaiah', 'naruto', 'ryu'];
@@ -45,6 +47,7 @@
 // $peopleThree = array_merge($peopleOne, $peopleTwo);
 // print_r($peopleThree);
 
+
 // Associative Arrays (key & value pairs):
 // $ninjasOne = ['isaiah'=>'black', 'mario'=>'red', 'luigi'=> 'green'];
 // // // echo $ninjasOne['mario']
@@ -57,6 +60,7 @@
 // $ninjasThree = array_merge($ninjasOne, $ninjasTwo);
 // print_r($ninjasThree);
 
+
 // Multi-dimensional Arrays: 
 // $blogs = [
 //     ['title'=>'Mairo Party', 'author'=> 'Mario', 'content'=> 'lorem', 'likes'=> 30],
@@ -67,6 +71,7 @@
 // // echo count($blogs)
 // $blogs[] = ['title'=> 'Castle Party', 'author'=> 'Peach', 'content'=> 'lorem', 'likes'=> 100];
 // // print_r($blogs);
+
 
 // // How To Remove things from an array:
 // $popped = array_pop($blogs);
@@ -84,14 +89,14 @@
 //     echo $ninja . '<br />';
 // }
 
-// $products = [
-//     ['name' => 'shiny star', 'price' => 20],
-//     ['name' => 'green shell', 'price' => 10],
-//     ['name' => 'red shell', 'price' => 15],
-//     ['name' => 'gold coin', 'price' => 5],
-//     ['name' => 'lightning bolt', 'price' => 40],
-//     ['name' => 'bananna skin', 'price' => 2]
-// ];
+$products = [
+    ['name' => 'shiny star', 'price' => 20],
+    ['name' => 'green shell', 'price' => 10],
+    ['name' => 'red shell', 'price' => 15],
+    ['name' => 'gold coin', 'price' => 5],
+    ['name' => 'lightning bolt', 'price' => 40],
+    ['name' => 'bananna skin', 'price' => 2]
+];
 
 // foreach($products as $product) {
 //     echo $product['name']. ' - ' . $product['price'];
@@ -105,6 +110,7 @@
 //     echo '<br />';
 //     $i++;
 // }
+
 
 // comparisions and booleans (true or false): 
 // echo 5 < 10;
@@ -121,6 +127,42 @@
 // echo 'mario' == 'Mario';
 // echo true == "1";
 // echo false == "";
+
+
+// Conditional Statements: 
+// $price = 20;
+
+// if ($price < 10) {
+//     echo 'the conditon is met';
+// } elseif ($price < 30) {
+//     echo 'elsif condition met';
+// } else {
+//     echo 'condtion not met';
+// }
+
+// foreach ($products as $product) {
+//     // if ($product['price'] < 15 && $product['price'] > 2) {
+//     //     echo $product['name'] . '<br />';
+//     // }
+
+//     if ($product['price'] > 20  || $product['price'] < 10) {
+//         echo $product['name'] . '<br />';
+//     }
+// }
+
+// Continue and Break
+
+foreach ($products as $product) {
+    if ($product['name'] === 'lightning bolt') {
+        break;
+    }
+
+    if ($product['price'] > 15) {
+        continue;
+    }
+
+    echo $product['name'] . '<br />';
+}
 
 
 ?>
@@ -145,6 +187,16 @@
             <p>$ <?php echo $product['price']; ?></p>
         <?php } ?>
     </ul> -->
+
+    <!-- <div>
+        <ul>
+            <?php foreach ($products as $product) { ?>
+                <?php if ($product['price'] > 15) { ?>
+                    <li><?php echo $product['name'] ?></li>
+                <?php } ?>
+            <?php } ?>
+        </ul>
+    </div> -->
 
 
 
