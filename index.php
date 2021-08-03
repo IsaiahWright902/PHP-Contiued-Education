@@ -89,14 +89,14 @@
 //     echo $ninja . '<br />';
 // }
 
-$products = [
-    ['name' => 'shiny star', 'price' => 20],
-    ['name' => 'green shell', 'price' => 10],
-    ['name' => 'red shell', 'price' => 15],
-    ['name' => 'gold coin', 'price' => 5],
-    ['name' => 'lightning bolt', 'price' => 40],
-    ['name' => 'bananna skin', 'price' => 2]
-];
+// $products = [
+//     ['name' => 'shiny star', 'price' => 20],
+//     ['name' => 'green shell', 'price' => 10],
+//     ['name' => 'red shell', 'price' => 15],
+//     ['name' => 'gold coin', 'price' => 5],
+//     ['name' => 'lightning bolt', 'price' => 40],
+//     ['name' => 'bananna skin', 'price' => 2]
+// ];
 
 // foreach($products as $product) {
 //     echo $product['name']. ' - ' . $product['price'];
@@ -131,7 +131,6 @@ $products = [
 
 // Conditional Statements: 
 // $price = 20;
-
 // if ($price < 10) {
 //     echo 'the conditon is met';
 // } elseif ($price < 30) {
@@ -139,7 +138,6 @@ $products = [
 // } else {
 //     echo 'condtion not met';
 // }
-
 // foreach ($products as $product) {
 //     // if ($product['price'] < 15 && $product['price'] > 2) {
 //     //     echo $product['name'] . '<br />';
@@ -150,20 +148,33 @@ $products = [
 //     }
 // }
 
-// Continue and Break
 
-foreach ($products as $product) {
-    if ($product['name'] === 'lightning bolt') {
-        break;
-    }
+// Continue and Break:
+// foreach ($products as $product) {
+//     if ($product['name'] === 'lightning bolt') {
+//         break;
+//     }
+//     if ($product['price'] > 15) {
+//         continue;
+//     }
+//     echo $product['name'] . '<br />';
+// }
 
-    if ($product['price'] > 15) {
-        continue;
-    }
 
-    echo $product['name'] . '<br />';
-}
+// Functions: 
+// function sayHello($name = 'ohtoo', $time = 'morning')
+// {
+//     echo "Good $time $name";
+// }
+// sayHello('isaiah', 'night');
 
+// function fromatProduct($product)
+// {
+//     // echo "{$product['name']} costs $ {$product['price']} to buy <br />";
+//     return "{$product['name']} costs $ {$product['price']} to buy <br />";
+// };
+// // $formatted = fromatProduct(['name' => 'gold star', 'price' => 20]);
+// // echo $formatted;
 
 ?>
 
