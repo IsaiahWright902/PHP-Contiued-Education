@@ -45,6 +45,18 @@
 // $peopleThree = array_merge($peopleOne, $peopleTwo);
 // print_r($peopleThree);
 
+// Associative Arrays (key & value pairs):
+// $ninjasOne = ['isaiah'=>'black', 'mario'=>'red', 'luigi'=> 'green'];
+// // // echo $ninjasOne['mario']
+// // print_r($ninjasOne);
+// $ninjasTwo = array('bowser'=> 'green', 'peach'=> 'yellow');
+// // print_r($ninjasTwo)
+// $ninjasTwo['peach'] = 'pink';
+// // print_r($ninjasTwo)
+// // echo count($ninjasOne);
+// $ninjasThree = array_merge($ninjasOne, $ninjasTwo);
+// print_r($ninjasThree);
+
 
 ?>
 
