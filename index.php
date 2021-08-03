@@ -57,6 +57,21 @@
 // $ninjasThree = array_merge($ninjasOne, $ninjasTwo);
 // print_r($ninjasThree);
 
+// Multi-dimensional Arrays: 
+// $blogs = [
+//     ['title'=>'Mairo Party', 'author'=> 'Mario', 'content'=> 'lorem', 'likes'=> 30],
+//     [ 'title'=>'Mario Kart Cheats', 'author'=> 'Toad', 'content'=> 'lorem', 'likes'=>  25],
+//     [ 'title'=>'Zelda Hidden Chests', 'author'=> 'Link', 'content'=> 'lorem', 'likes'=>  50]
+// ];
+// // print_r($blogs[1][1]);
+// // echo count($blogs)
+// $blogs[] = ['title'=> 'Castle Party', 'author'=> 'Peach', 'content'=> 'lorem', 'likes'=> 100];
+// // print_r($blogs);
+
+// // How To Remove things from an array:
+// $popped = array_pop($blogs);
+// print_r($popped);
+
 
 ?>
 
