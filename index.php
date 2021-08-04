@@ -176,6 +176,37 @@
 // // $formatted = fromatProduct(['name' => 'gold star', 'price' => 20]);
 // // echo $formatted;
 
+
+// Variable Scopes:
+// function myFunc()
+// {
+//     $price = 10;
+//     echo $price;
+// }
+// myFunc();
+// function myFuncTwo($age)
+// {
+//     echo $age;
+// }
+// myFuncTwo(25);
+
+// $name = 'Mario';
+// function sayHello()
+// {
+//     global $name;
+//     $name = 'yoshi';
+//     echo "hello $name";
+// }
+// sayHello();
+// echo $name;
+// function sayBye(&$name)
+// {
+//     $name = 'wario';
+//     echo "bye $name";
+// }
+// sayBye($name);
+// echo $name;
+
 ?>
 
 
